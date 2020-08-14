@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableManagementSystemApp", "TimeTableManagementSystemApp\TimeTableManagementSystemApp.csproj", "{001C4A52-CC47-41FF-8B8C-BFDB97EEA260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLayer", "BussinessLayer\BussinessLayer.csproj", "{C18033DA-3585-4B5F-9BA0-1E219CC88FE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BussinessLayer", "BussinessLayer\BussinessLayer.csproj", "{C18033DA-3585-4B5F-9BA0-1E219CC88FE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B276AE5B-4B9E-418A-B5F1-BBEF381CC598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B276AE5B-4B9E-418A-B5F1-BBEF381CC598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

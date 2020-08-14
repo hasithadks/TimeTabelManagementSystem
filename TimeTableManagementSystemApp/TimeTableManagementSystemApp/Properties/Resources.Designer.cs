@@ -89,5 +89,15 @@ namespace TimeTableManagementSystemApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap youtubegaming2560_1440 {
+            get {
+                object obj = ResourceManager.GetObject("youtubegaming2560_1440", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

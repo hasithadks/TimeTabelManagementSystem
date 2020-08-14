@@ -57,25 +57,43 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IT18050240\AddWorkingDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IT18050240\AddWorkingDays.Designer.cs">
+      <DependentUpon>AddWorkingDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT18050240\ManageWorkingDays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT18050240\ManageWorkingDays.Designer.cs">
+      <DependentUpon>ManageWorkingDays.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IT18050240\AddWorkingDays.resx">
+      <DependentUpon>AddWorkingDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT18050240\ManageWorkingDays.resx">
+      <DependentUpon>ManageWorkingDays.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -86,16 +104,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\closebtn.png" />
+    <None Include="Resources\Maxibtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Maxibtn.png" />
+    <None Include="Resources\closebtn.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minibtn.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Bunifu_UI_v1.52.dll" />
+    <None Include="Resources\youtubegaming2560_1440.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
