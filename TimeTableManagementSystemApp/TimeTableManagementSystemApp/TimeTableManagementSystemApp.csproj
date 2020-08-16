@@ -71,6 +71,12 @@
     <Compile Include="IT18050241\AddWorkingTime.Designer.cs">
       <DependentUpon>AddWorkingTime.cs</DependentUpon>
     </Compile>
+    <Compile Include="IT18058338\Add Lecturers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT18058338\Add Lecturers.Designer.cs">
+      <DependentUpon>Add Lecturers.cs</DependentUpon>
+    </Compile>
     <Compile Include="IT18063288\LocationAndStatistic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="IT18049114\StudentManagement.resx">
       <DependentUpon>StudentManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IT18058338\Add Lecturers.resx">
+      <DependentUpon>Add Lecturers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IT18063288\LocationAndStatistic.resx">
       <DependentUpon>LocationAndStatistic.cs</DependentUpon>
