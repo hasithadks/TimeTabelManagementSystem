@@ -21,10 +21,5 @@ namespace TimeTableManagementSystemApp.IT18063288
         {
 
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
