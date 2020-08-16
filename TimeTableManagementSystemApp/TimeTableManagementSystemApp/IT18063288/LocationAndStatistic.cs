@@ -21,5 +21,10 @@ namespace TimeTableManagementSystemApp.IT18063288
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
