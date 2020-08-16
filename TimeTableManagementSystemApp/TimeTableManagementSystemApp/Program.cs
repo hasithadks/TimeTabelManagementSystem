@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TimeTableManagementSystemApp.IT18050240;
+using TimeTableManagementSystemApp;
 
 namespace TimeTableManagementSystemApp
 {
@@ -17,7 +17,7 @@ namespace TimeTableManagementSystemApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManageWorkingDays());
+            
         }
     }
 }
