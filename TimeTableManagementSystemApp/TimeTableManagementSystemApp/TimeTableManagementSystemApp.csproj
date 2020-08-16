@@ -85,6 +85,9 @@
     <EmbeddedResource Include="IT18049114\StudentManagement.resx">
       <DependentUpon>StudentManagement.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IT18050241\AddWorkingTime.resx">
+      <DependentUpon>AddWorkingTime.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IT18063288\LocationAndStatistic.resx">
       <DependentUpon>LocationAndStatistic.cs</DependentUpon>
     </EmbeddedResource>
