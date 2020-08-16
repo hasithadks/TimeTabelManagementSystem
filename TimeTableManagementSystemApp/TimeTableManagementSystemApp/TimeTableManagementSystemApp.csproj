@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IT18049114\AddStudent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IT18049114\AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
     <Compile Include="IT18049114\StudentManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="IT18050241\AddWorkingTime.Designer.cs">
       <DependentUpon>AddWorkingTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IT18058338\Add Lecturers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT18058338\Add Lecturers.Designer.cs">
+      <DependentUpon>Add Lecturers.cs</DependentUpon>
     </Compile>
     <Compile Include="IT18063288\LocationAndStatistic.cs">
       <SubType>Form</SubType>
@@ -82,11 +94,14 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IT18049114\AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IT18049114\StudentManagement.resx">
       <DependentUpon>StudentManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IT18050241\AddWorkingTime.resx">
-      <DependentUpon>AddWorkingTime.cs</DependentUpon>
+    <EmbeddedResource Include="IT18058338\Add Lecturers.resx">
+      <DependentUpon>Add Lecturers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IT18063288\LocationAndStatistic.resx">
       <DependentUpon>LocationAndStatistic.cs</DependentUpon>
