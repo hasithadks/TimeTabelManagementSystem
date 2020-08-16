@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TimeTableManagementSystemApp.IT18063288
+namespace TimeTableManagementSystemApp.IT18058338
 {
-    public partial class LocationAndStatistic : Form
+    public partial class Add_Lecturers : Form
     {
-        public LocationAndStatistic()
+        public Add_Lecturers()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
