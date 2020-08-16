@@ -59,6 +59,12 @@
     <Compile Include="IT18049114\StudentManagement.Designer.cs">
       <DependentUpon>StudentManagement.cs</DependentUpon>
     </Compile>
+    <Compile Include="IT18050241\AddWorkingTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IT18050241\AddWorkingTime.Designer.cs">
+      <DependentUpon>AddWorkingTime.cs</DependentUpon>
+    </Compile>
     <Compile Include="IT18063288\LocationAndStatistic.cs">
       <SubType>Form</SubType>
     </Compile>
